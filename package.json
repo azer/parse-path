@@ -1,0 +1,23 @@
+{
+  "name": "parse-path",
+  "version": "0.0.0",
+  "description": "parse javascript object path",
+  "main": "index.js",
+  "scripts": {
+    "test": "fox"
+  },
+  "devDependencies": {
+    "fox": "*"
+  },
+  "keywords": [
+    "path",
+    "object",
+    "path"
+  ],
+  "repository": {
+    "url": "git@github.com:azer\/parse-path.git",
+    "type": "git"
+  },
+  "author": "Azer Ko\u00e7ulu <azer@kodfabrik.com>",
+  "license": "BSD"
+}
