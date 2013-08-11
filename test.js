@@ -22,7 +22,7 @@ it('returns property', function(){
 
 it('returns child property', function(){
   expect(path(context, 'fruits.berries')).to.deep.equal(context.fruits.berries);
-  expect(path(context, 'others.vegetables')).to.deep.equal(context.others.vegetables());
+  expect(path(context, 'others.vegetables')).to.deep.equal(context.others.vegetables);
 });
 
 it('returns an item from array', function(){

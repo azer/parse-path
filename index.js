@@ -15,12 +15,12 @@ function parsePath (context, path) {
   while (++i < len) {
     value = ( i == 0 ? context : value )[parts[i]];
 
-    if (value == undefined || value == null) {
-      return undefined;
+    if (typeof value == 'function' && i < len - 1) {
+      value = value();
     }
 
-    if (typeof value == 'function') {
-      value = value();
+    if (value == undefined || value == null) {
+      return undefined;
     }
 
   }
