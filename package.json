@@ -1,6 +1,6 @@
 {
   "name": "parse-path",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "parse javascript object path",
   "main": "index.js",
   "scripts": {
@@ -15,9 +15,9 @@
     "path"
   ],
   "repository": {
-    "url": "git@github.com:azer\/parse-path.git",
+    "url": "git@github.com:azer/parse-path.git",
     "type": "git"
   },
-  "author": "Azer Ko\u00e7ulu <azer@kodfabrik.com>",
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
   "license": "BSD"
 }
